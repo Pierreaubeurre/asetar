@@ -27,7 +27,7 @@ Par exemple :
 ###Liens :  
 
 
-
+https://semestriel.framapad.org/p/asetar_framapad-9t4f?lang=fr
 https://www.w3schools.com/
 https://www.php.net/manual/fr/reserved.variables.post.php
 https://dbconcept.tuxfamily.org/online/index.html
