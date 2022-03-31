@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2? family= Quicksand & display=swap');
+
+body
+    {
+        height: 100vh;
+        display: flex;
+        background: no-repeat
+                    linear-gradient(217deg, #dea7e6, #86a1c4),
+                    linear-gradient(127deg, #728edb, #296d9b),
+                    linear-gradient(336deg, #dd94e9, #8cbfd3);
+    }
+
+.row
+    {
+        display: flex;
+        height: 88%;
+        align-items: center;
+    }
+
+.col
+    {
+        flex-basis: 50%;
+    }
+
+h1
+    {
+        color: white;
+        font-size: 50px;
+    }
+
+p   
+    {
+        color: white;
+        font-size: 14.5px;
+        line-height: 18px;
+    }
+
+.card
+    {
+        width: 200px;
+        height: 60%;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+    }
+
+.card1
+    {
+        background-image: url();
+    }
+
+.card2
+    {
+        background-image: url();
+    }
+
+.card3
+    {
+        background-image: url();
+    }
+
+.card4
+    {
+        background-image: url();
+    }
