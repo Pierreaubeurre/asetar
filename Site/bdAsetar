@@ -17,6 +17,7 @@ CREATE TABLE COMPTE
     MDP_U   VARCHAR(200)    NULL,
     ROLE_U    VARCHAR(20)    NULL,
     PRIMARY KEY (ID_U)
+    FOREIGN KEY (PSEUDO_U) REFERENCES COMPTE (PSEUDO_U)
     );
 
 
@@ -41,9 +42,14 @@ CREATE TABLE PROFIL
     );
 
 
+CREATE TABLE ACHAT 
+  (
+    ID_CMD INTEGER NOT NULL,
+    PSEUDO_U VARCHAR(20) NULL,
+    PANIER VARCHAR(50) NULL,
+  )
 
-
-CREATE TABLE BOUTIQUE
+CREATE TABLE PRODUIT
 	(
       ARTICLE VARCHAR(30)    NULL,
       PRIX INTEGER    NOT NULL,
@@ -73,3 +79,4 @@ INSERT INTO PROFIL VALUES (6, "Gaetan", "DECH", "GaDeTan", "75", "Jeune-vieux", 
 INSERT INTO PROFIL VALUES (7, "Lume", "Hier", "Sombrière", "18", "apprenti ampoule", "04500", "2003-09-17", "07-38-42-54-25", "BTS EAU MONGE", "Anglais",  "La.Lumiere@gmail.com");
 INSERT INTO PROFIL VALUES (8, "TestN", "TestP", "TestPseudo", "18", "compte testeur", "15400", "2003-11-04", "06-00-00-00-00", "BTS EAU MONGE", "Francais",  "test.test@gmail.com");
 
+INSERT INTO ACHAT VALUES (1, TATA, T-shirt & Tasse)
