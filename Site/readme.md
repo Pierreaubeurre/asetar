@@ -24,7 +24,7 @@ Le rond est le résultat final affiché de la page
 | ----------- | ----------- | ----------- |----------- | ----------- |
 | Accueil | Pas Besoin | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 95 pourcent}}`$ |
 | Login | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 100 pourcent}}`$ |
-| Logout | Pas Besoin | Pas besoin | $`\textcolor{red}{\text{A faire !}}`$ | $`\textcolor{red}{\text{Fini 20 pourcent}}`$ |
+| Logout | Pas Besoin | Pas besoin | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{greeen}{\text{Fini 100 pourcent}}`$ |
 | Profil | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 95 pourcent}}`$ |
 | ModifProfil | $`\textcolor{blue}{\text{En cours}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{blue}{\text{En cours}}`$ | $`\textcolor{green}{\text{Fini 70 pourcent}}`$ |
 | Boutique | $`\textcolor{red}{\text{A faire !}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{red}{\text{A faire !}}`$ | $`\textcolor{red}{\text{Fini 20 pourcent}}`$ |
