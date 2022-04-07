@@ -10,6 +10,6 @@
 -Update le 07/04 a 9h  
 
 
-![Erreur de chargement](Site/Schéma_du_fonctionnement_du_site.png)  
+![Erreur de chargement](/images/SchémaMD)  
 
 
