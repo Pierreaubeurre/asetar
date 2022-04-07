@@ -4,11 +4,11 @@
 
 ## Status des outils utilisés pour le projet :  
 
--Microsoft visual studio code / kwrite.
--Php 7.3.31 deb10u1
--Mariadb 10.3.34-deb10u1
--Debian GNU/Linux 10
--Dernière Update le 07/04 a 10h par Thibault  
+-Microsoft visual studio code / kwrite.  
+-Php 7.3.31 deb10u1  
+-Mariadb 10.3.34-deb10u1  
+-Debian GNU/Linux 10  
+-Dernière Update le 07/04 a 10h par Thibault    
 
 
 ![Erreur de chargement](Site/images/SchemaMD.png)  
