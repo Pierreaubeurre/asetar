@@ -93,4 +93,4 @@ INSERT INTO PRODUIT VALUES ("Sac à dos",14.99,  99,    "");
 INSERT INTO PRODUIT VALUES ("Stickers",4.99,   99,    "");
 INSERT INTO PRODUIT VALUES ("Porte clé",         2.49,   99,    "");
 
-engine=MyISAM DEFAULT CHARSET=utf8 COLLATE utf8_general_cs;
+
