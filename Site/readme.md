@@ -26,7 +26,7 @@ Le rond est le résultat final affiché de la page
 
 | Fonctionnalités | M (Modèle) | V (Vue) | C (Contrôleur) | Priorité |
 | ----------- | ----------- | ----------- |----------- | ----------- |
-| Accueil | Pas Besoin | Finitions | Fait | Fini 95% |
+| Texte normal suivi d’un [color=#26B260]texte coloré en vert[/color] dans un paragraphe. | Pas Besoin | Finitions | Fait | Fini 95% |
 | Login | Fait | Fait | Fait | Fini 100% |
 | Logout | Pas Besoin | Pas besoin | A faire ! | Fini 20% |
 | Profil | Fait | Finition | Fait | Fini 95% |
@@ -34,3 +34,6 @@ Le rond est le résultat final affiché de la page
 | Boutique | A faire ! | Fait | A faire ! | Fini 20% |
 | Inscription | En pause | Finition | En pause | Fini 40% |
 
+Texte normal suivi d’un [color=#26B260]texte coloré en vert[/color] dans un paragraphe.
+Texte normal suivi d’un <span style="color: #26B260">texte coloré en vert</span> dans un paragraphe.
+<span style="color:blue">some *blue* text</span>.
