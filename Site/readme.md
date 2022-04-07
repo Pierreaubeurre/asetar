@@ -19,7 +19,7 @@ Le rond est le résultat final affiché de la page
   
 ## Etat des fonctionnalités présentent au moment de l'update.
 
-| Fonctionnalités | M (Modèle) | V Vue | C Contrôleur |
+| Fonctionnalités | M (Modèle) | V (Vue) | C (Contrôleur) |
 | ----------- | ----------- | ----------- |----------- |
 | Header | Title | Paragraph | Text | 
 | Header | Title | Paragraph | Text | 
