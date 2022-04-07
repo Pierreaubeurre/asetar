@@ -83,3 +83,11 @@ INSERT INTO PROFIL VALUES (7, "Lume", "Hier", "Sombrière", "18", "apprenti ampo
 INSERT INTO PROFIL VALUES (8, "TestN", "TestP", "TestPseudo", "18", "compte testeur", "15400", "2003-11-04", "06-00-00-00-00", "BTS EAU MONGE", "Francais",  "test.test@gmail.com");
 
 INSERT INTO ACHAT VALUES (1, TATA, T-shirt & Tasse)
+
+INSERT INTO PRODUIT VALUES ("Mug",                "4.99",   "99",    "");
+INSERT INTO PRODUIT VALUES ("T-shirt Homme",      "9.99",   "99",    "");
+INSERT INTO PRODUIT VALUES ("T-shirt Femme",      "9.99",   "99",    "");
+INSERT INTO PRODUIT VALUES ("Bracelet",           "1.99",   "99",    "");
+INSERT INTO PRODUIT VALUES ("Sac à dos",         "14.99",   "99",    "");
+INSERT INTO PRODUIT VALUES ("Stickers",           "4.99",   "99",    "");
+INSERT INTO PRODUIT VALUES ("Porte clé",          "2.49",   "99",    "");
