@@ -26,14 +26,10 @@ Le rond est le résultat final affiché de la page
 
 | Fonctionnalités | M (Modèle) | V (Vue) | C (Contrôleur) | Priorité |
 | ----------- | ----------- | ----------- |----------- | ----------- |
-| Texte normal suivi d’un [color=#26B260]texte coloré en vert[/color] dans un paragraphe. | Pas Besoin | Finitions | Fait | Fini 95% |
-| Login | Fait | Fait | Fait | Fini 100% |
-| Logout | Pas Besoin | Pas besoin | A faire ! | Fini 20% |
-| Profil | Fait | Finition | Fait | Fini 95% |
-| ModifProfil | En cours | Finition | En cours | Fini 70% |
-| Boutique | A faire ! | Fait | A faire ! | Fini 20% |
-| Inscription | En pause | Finition | En pause | Fini 40% |
-
-Texte normal suivi d’un [color=#26B260]texte coloré en vert[/color] dans un paragraphe.
-Texte normal suivi d’un <span style="color: #26B260">texte coloré en vert</span> dans un paragraphe.
-<span style="color:blue">some *blue* text</span>.
+| Accueil | Pas Besoin | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 95 pourcent}}`$ |
+| Login | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 100 pourcent}}`$ |
+| Logout | Pas Besoin | Pas besoin | $`\textcolor{red}{\text{A faire !}}`$ | $`\textcolor{red}{\text{Fini 20 pourcent}}`$ |
+| Profil | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 95 pourcent}}`$ |
+| ModifProfil | $`\textcolor{blue}{\text{En cours}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{blue}{\text{En cours}}`$ | $`\textcolor{green}{\text{Fini 70 pourcent}}`$ |
+| Boutique | $`\textcolor{red}{\text{A faire !}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{red}{\text{A faire !}}`$ | $`\textcolor{red}{\text{Fini 20 pourcent}}`$ |
+| Inscription | $`\textcolor{red}{\text{En pause}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{red}{\text{En pause}}`$ | $`\textcolor{red}{\text{Fini 40 pourcent}}`$ |
