@@ -10,6 +10,6 @@
 -Update le 07/04 a 9h  
 
 
-![test](Schéma_du_fonctionnement_du_site.png)  
+![Erreur de chargement](Schéma_du_fonctionnement_du_site.png)  
 
 
