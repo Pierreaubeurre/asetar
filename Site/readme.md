@@ -35,46 +35,48 @@ Le rond est le résultat final affiché de la page
 | Inscription | $`\textcolor{red}{\text{En pause}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{red}{\text{En pause}}`$ | $`\textcolor{red}{\text{Fini 40 pourcent}}`$ |
 
 
-##Arborescence  
+## Arborescence  
 
-=> Site  
-=/=>controleur  
-=/=/=>accueil  
+Les {- dossiers -} sont en rouge alors que les {+ fichiers +} sont en vert. Les =/ symbolisent les couches de l'arborescence.
+
+=>{- Site -}  
+=/=>{- controleur -}  
+=/=/=>{- accueil -}  
 =/=/=/=>{+ accueil.php +}  
-=/=/=>inscription  
+=/=/=>{- inscription -}  
 =/=/=/=>{+ inscription_Controleur.php +}  
-=/=/=>login  
+=/=/=>{- login -}  
 =/=/=/=>{+ C_deco.php +}  
 =/=/=/=>{+ login.php +}  
-=/=/=>profil  
+=/=/=>{- profil -}  
 =/=/=/=>{+ C_profil.php +}  
 =/=/=>{+ controleurPrincipal.php +}  
-=/=>images  
+=/=>{- images -}  
 =/=/=>{+ SchemaMD.png +}  
-=/=>init  
+=/=>{- init -}  
 =/=/=>{+ init.php +}  
-=/=>modele  
+=/=>{- modele -}  
 =/=/=>{+ authentification_modele.php +}  
 =/=/=>{+ connSQL_modele.php +}  
 =/=/=>{+ inscription_modele.php +}  
 =/=/=>{+ profil.php +}  
-=/=>parametre  
+=/=>{- parametre -}  
 =/=/=>{+ pageListe.php +}  
-=/=>vue  
-=/=/=>Boutique  
+=/=>{- vue -}  
+=/=/=>{- Boutique -}  
 =/=/=/=>{+ Boutique.css +}  
 =/=/=/=>{+ Boutique.html +}  
-=/=/=>Accueil  
+=/=/=>{- Accueil -}  
 =/=/=/=>{+ accueil.html +}  
 =/=/=/=>{+ acceuil.css +}  
 =/=/=/=>{+ accueilDéco.html +}  
-=/=/=>inscription  
+=/=/=>{- inscription -}  
 =/=/=/=>{+ inscription.css +}  
 =/=/=/=>{+ inscription.html +}  
-=/=/=>login  
+=/=/=>{- login -}  
 =/=/=/=>{+ connexion.css +}  
 =/=/=/=>{+ connexion.html +}  
-=/=/=>profil  
+=/=/=>{- profil -}  
 =/=/=/=>{+ PageProfil.css +}  
 =/=/=/=>{+ PageProfil.php +}  
 =/=/=/=>{+ PageProfilModif.php +}  
