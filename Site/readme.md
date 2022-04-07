@@ -33,3 +33,38 @@ Le rond est le résultat final affiché de la page
 | ModifProfil | $`\textcolor{blue}{\text{En cours}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{blue}{\text{En cours}}`$ | $`\textcolor{green}{\text{Fini 70 pourcent}}`$ |
 | Boutique | $`\textcolor{red}{\text{A faire !}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{red}{\text{A faire !}}`$ | $`\textcolor{red}{\text{Fini 20 pourcent}}`$ |
 | Inscription | $`\textcolor{red}{\text{En pause}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{red}{\text{En pause}}`$ | $`\textcolor{red}{\text{Fini 40 pourcent}}`$ |
+
+
+##Arborescence  
+
+=> Site
+==>controleur
+===>accueil
+====>accueil.php
+===>inscription
+====>inscription_Controleur.php
+===>login
+====>C_deco.php
+====>login.php
+===>profil
+====>C_profil.php
+===>controleurPrincipal.php
+==>images
+===>SchemaMD.png
+==>init
+===>init.php
+==>modele
+===>authentification_modele.php
+===>connSQL_modele.php
+===>inscription_modele.php
+===>profil.php
+==>parametre
+===>pageListe.php
+==>vue
+===>Boutique
+====>Boutique.css
+====>Boutique.html
+===>Accueil
+===>inscription
+===>login
+===>profil
