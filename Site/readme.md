@@ -38,46 +38,46 @@ Le rond est le résultat final affiché de la page
 ##Arborescence  
 
 => Site  
-==>controleur  
-===>accueil  
-====>accueil.php  
-===>inscription  
-====>inscription_Controleur.php  
-===>login  
-====>C_deco.php  
-====>login.php  
-===>profil  
-====>C_profil.php  
-===>controleurPrincipal.php  
-==>images  
-===>SchemaMD.png  
-==>init  
-===>init.php  
-==>modele  
-===>authentification_modele.php  
-===>connSQL_modele.php  
-===>inscription_modele.php  
-===>profil.php  
-==>parametre  
-===>pageListe.php  
-==>vue  
-===>Boutique  
-====>Boutique.css  
-====>Boutique.html  
-===>Accueil  
-====>accueil.html  
-====>acceuil.css  
-====>accueilDéco.html  
-===>inscription  
-====>inscription.css  
-====>inscription.html  
-===>login  
-====>connexion.css  
-====>connexion.html  
-===>profil  
-====>PageProfil.css  
-====>PageProfil.php  
-====>PageProfilModif.php  
-==>bdAsetar.sql  
-==>index.php  
-==>readme.md  
+=/=>controleur  
+=/=/=>accueil  
+=/=/=/=>{+ accueil.php +}  
+=/=/=>inscription  
+=/=/=/=>{+ inscription_Controleur.php +}  
+=/=/=>login  
+=/=/=/=>{+ C_deco.php +}  
+=/=/=/=>{+ login.php +}  
+=/=/=>profil  
+=/=/=/=>{+ C_profil.php +}  
+=/=/=>{+ controleurPrincipal.php +}  
+=/=>images  
+=/=/=>{+ SchemaMD.png +}  
+=/=>init  
+=/=/=>{+ init.php +}  
+=/=>modele  
+=/=/=>{+ authentification_modele.php +}  
+=/=/=>{+ connSQL_modele.php +}  
+=/=/=>{+ inscription_modele.php +}  
+=/=/=>{+ profil.php +}  
+=/=>parametre  
+=/=/=>{+ pageListe.php +}  
+=/=>vue  
+=/=/=>Boutique  
+=/=/=/=>{+ Boutique.css +}  
+=/=/=/=>{+ Boutique.html +}  
+=/=/=>Accueil  
+=/=/=/=>{+ accueil.html +}  
+=/=/=/=>{+ acceuil.css +}  
+=/=/=/=>{+ accueilDéco.html +}  
+=/=/=>inscription  
+=/=/=/=>{+ inscription.css +}  
+=/=/=/=>{+ inscription.html +}  
+=/=/=>login  
+=/=/=/=>{+ connexion.css +}  
+=/=/=/=>{+ connexion.html +}  
+=/=/=>profil  
+=/=/=/=>{+ PageProfil.css +}  
+=/=/=/=>{+ PageProfil.php +}  
+=/=/=/=>{+ PageProfilModif.php +}  
+=/=>{+ bdAsetar.sql +}  
+=/=>{+ index.php +}  
+=/=>{+ readme.md +}  
