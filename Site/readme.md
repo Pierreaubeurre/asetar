@@ -19,10 +19,13 @@ Le rond est le résultat final affiché de la page
   
 ## Etat des fonctionnalités présentent au moment de l'update.
 
-| Fonctionnalités | M (Modèle) | V (Vue) | C (Contrôleur) |
-| ----------- | ----------- | ----------- |----------- |
-| Header | Title | Paragraph | Text | 
-| Header | Title | Paragraph | Text | 
-| Header | Title | Paragraph | Text | 
-| Header | Title | Paragraph | Text | 
-| Header | Title | Paragraph | Text | 
+| Fonctionnalités | M (Modèle) | V (Vue) | C (Contrôleur) | Priorité |
+| ----------- | ----------- | ----------- |----------- | |----------- |
+| Accueil | Pas Besoin | Finitions | Fait | Fini 95% |
+| Login | Fait | Fait | Fait | Fini 100% |
+| Logout | Pas Besoin | Pas besoin | A faire ! | Fini 20% |
+| Profil | Fait | Finition | Fait | Fini 95% |
+| ModifProfil | En cours | Finition | En cours | Fini 70% |
+| Boutique | A faire ! | Fait | A faire ! | Fini 20% |
+| Inscription | En pause | Finition | En pause | Fini 40% |
+
