@@ -12,7 +12,7 @@
 -Php 7.3.31 deb10u1
 -Mariadb 10.3.34-deb10u1
 -Debian GNU/Linux 10
--Update le 07/04 a 9h  
+-Dernière Update le 07/04 a 10h par Thibault  
 
 
 ![Erreur de chargement](Site/images/SchemaMD.png)  
@@ -83,3 +83,15 @@ Les {- dossiers -} sont en rouge alors que les {+ fichiers +} sont en vert. Les 
 =/=>{+ bdAsetar.sql +}  
 =/=>{+ index.php +}  
 =/=>{+ readme.md +}  
+
+
+
+
+#### Listes des updates du readme :  
+-Update le 07/04 a 9h par Thibault  
+-  
+-  
+-  
+-  
+-  
+-  
