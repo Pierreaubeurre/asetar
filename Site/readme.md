@@ -19,3 +19,7 @@ Le rond est le résultat final affiché de la page
   
 ## Etat des fonctionnalités présentent au moment de l'update.
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
