@@ -15,7 +15,7 @@ body
         align-content: center;
         min-height: 100vh;
         background: no-repeat
-                    linear-gradient(217deg, #5e4cc5, #86a1c4),
+                    linear-gradient(217deg, #ffffff, #86a1c4),
                     linear-gradient(127deg, #728edb, #296d9b),
                     linear-gradient(336deg, #dd94e9, #8cbfd3);
     }
@@ -33,8 +33,9 @@ body
 .container .card
     {
         width: 100%;
-        background: rgb(255, 255, 255);
+        background: rgb(85, 94, 212);
         border-radius: 10px;
+        box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, 0.2);
     }
 
 .container .card .image-box
@@ -168,13 +169,13 @@ body
 .container .card .content .price_rating h2
     {
         font-size: 20px;
-        color: #ff2020;
+        color: #ffffff;
         font-weight: 500;
     }
 
 .container .card .content .price_rating .fa
     {
-        color: #e6bd09;
+        color: #dbba27;
         cursor: pointer;
     }
 
