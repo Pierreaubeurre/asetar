@@ -1,0 +1,97 @@
+DROP DATABASE IF EXISTS BD_ASETAR;
+
+CREATE DATABASE BD_ASETAR CHARACTER SET utf8 COLLATE utf8_bin;
+
+USE BD_ASETAR;
+
+CREATE USER IF NOT EXISTS 'Admin'@'localhost' IDENTIFIED BY '1234';
+GRANT ALL PRIVILEGES ON *.* TO 'Admin'@'localhost';
+
+
+
+CREATE TABLE COMPTE
+    (
+    ID_U        INTEGER     NOT NULL AUTO_INCREMENT,
+    PSEUDO_U   VARCHAR(20)    NULL,
+    MDP_U   VARCHAR(200)    NULL,
+    ROLE_U    VARCHAR(20)    NULL,
+    PRIMARY KEY (ID_U)
+    );
+
+
+
+CREATE TABLE PROFIL
+	(
+      ID_U    INTEGER    NOT NULL,
+      NOM   VARCHAR(20)     NULL,
+      PRENOM  VARCHAR(20)    NULL,
+      PSEUDO_U    VARCHAR(20)    NULL,
+      AGE    INTEGER        NOT NULL,
+      BIO    VARCHAR(200)    NULL,
+      CODE_POSTAL VARCHAR(10)    NOT NULL, 
+      DATE_NAISSANCE VARCHAR(20)    NULL,
+      TEL VARCHAR(20)        NULL,
+      CENTRE_FORMATION   VARCHAR(200)   NULL,
+      LANGUE    VARCHAR(20)     NULL,
+      MAIL      VARCHAR(200)        NULL,
+      PRIMARY KEY (NOM,PRENOM),
+      FOREIGN KEY (ID_U) REFERENCES COMPTE (ID_U)
+      
+    );
+
+
+
+
+CREATE TABLE ACHAT 
+  (
+    ID_CMD INTEGER NOT NULL,
+    NOM VARCHAR(20) NULL,
+    PRENOM VARCHAR(20) NULL,
+    PANIER VARCHAR(50) NULL,
+    PRIX INTEGER NOT NULL,
+    PRIMARY KEY (ID_CMD),
+    FOREIGN KEY (NOM,PRENOM) REFERENCES PROFIL (NOM,PRENOM)
+  );
+
+CREATE TABLE PRODUIT
+	(
+      ARTICLE VARCHAR(30)    NULL,
+      PRIX INTEGER    NOT NULL,
+      STOCK INTEGER     NOT NULL,
+      DESCR VARCHAR(50) NULL,
+      PRIMARY KEY (ARTICLE)
+    );
+
+
+
+INSERT INTO COMPTE VALUES (ID_U, "TATA",        "toto",         "User");
+INSERT INTO COMPTE VALUES (ID_U, "TATA2000",    "tata2000",     "User");
+INSERT INTO COMPTE VALUES (ID_U, "Thib",        "Thib1234",     "Admin");
+INSERT INTO COMPTE VALUES (ID_U, "Aeklys",      "Ryan1234",     "Admin");
+INSERT INTO COMPTE VALUES (ID_U, "Theo",        "Theo1234",     "Admin");
+INSERT INTO COMPTE VALUES (ID_U, "Gaetan",      "Gaetan1234",   "Admin");
+INSERT INTO COMPTE VALUES (ID_U, "Lumiere",     "sombre",       "User");
+INSERT INTO COMPTE VALUES (ID_U, "Test",        "test2022",     "User");
+
+
+INSERT INTO PROFIL VALUES (1, "TA", "TI", "TATA", "18", "Jeune-entrepreneur", "44564", "2004-07-12", "06-06-06-06-06", "BTS SIO MONGE", "Francais",  "TATA.TA28@gmail.com");
+INSERT INTO PROFIL VALUES (2, "TATI", "TATO", "TATA2000", "23", "Nouveau étudiant", "07400", "1999-02-27", "06-45-64-16-85", "BTS SIO MONGE", "Francais",  "TATA.2000@gmail.com");
+INSERT INTO PROFIL VALUES (3, "Thibault", "COLL", "ThibThib", "18", "Sportif et joueur", "08000", "2004-03-28", "06-27-42-06-36", "BTS SIO MONGE", "Francais",  "thib.c2004@gmail.com");
+INSERT INTO PROFIL VALUES (4, "Ryan", "TEIXEIRA", "Aeklys", "18", "Jeune-entrepreneur", "08000", "2003-05-27", "06-54-51-14-96", "BTS SIO MONGE", "Francais",  "ryan.txa27@gmail.com");
+INSERT INTO PROFIL VALUES (5, "Theo", "GOUV", "TheoGo", "19", "dev front", "44874", "2003-05-27", "06-05-06-07-08", "BTS RGPD MONGE", "Francais",  "theo.theo@gmail.com");
+INSERT INTO PROFIL VALUES (6, "Gaetan", "DECH", "GaDeTan", "75", "Jeune-vieux", "44500", "1950-05-27", "07-06-05-04-03", "BTS RGPD MONGE", "Anglais",  "Gae.tan75@gmail.com");
+INSERT INTO PROFIL VALUES (7, "Lume", "Hier", "Sombrière", "18", "apprenti ampoule", "04500", "2003-09-17", "07-38-42-54-25", "BTS EAU MONGE", "Anglais",  "La.Lumiere@gmail.com");
+INSERT INTO PROFIL VALUES (8, "TestN", "TestP", "TestPseudo", "18", "compte testeur", "15400", "2003-11-04", "06-00-00-00-00", "BTS EAU MONGE", "Francais",  "test.test@gmail.com");
+
+INSERT INTO ACHAT VALUES (1, "TA","TI", "Tshirt & Tasse", 12);
+
+INSERT INTO PRODUIT VALUES ("Mug", 4.99, 99, "test");
+INSERT INTO PRODUIT VALUES ("T-shirt Homme",9.99,   99,    "");
+INSERT INTO PRODUIT VALUES ("T-shirt Femme",9.99,   99,    "");
+INSERT INTO PRODUIT VALUES ("Bracelet",1.99,   99,    "");
+INSERT INTO PRODUIT VALUES ("Sac à dos",14.99,  99,    "");
+INSERT INTO PRODUIT VALUES ("Stickers",4.99,   99,    "");
+INSERT INTO PRODUIT VALUES ("Porte clé",         2.49,   99,    "");
+
+
+
