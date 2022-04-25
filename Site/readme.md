@@ -8,7 +8,7 @@
 -Php 7.3.31 deb10u1  
 -Mariadb 10.3.34-deb10u1  
 -Debian GNU/Linux 10  
--Dernière Update le 07/04 a 10h par Thibault    
+-Dernière Update le 25/04 a 21h par Thibault    
 
 
 ![Erreur de chargement](Site/images/SchemaMD.png)  
@@ -25,9 +25,9 @@ Le rond est le résultat final affiché de la page
 | Accueil | Pas Besoin | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 95 pourcent}}`$ |
 | Login | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 100 pourcent}}`$ |
 | Logout | Pas Besoin | Pas besoin | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 100 pourcent}}`$ |
-| Profil | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 95 pourcent}}`$ |
-| ModifProfil | $`\textcolor{blue}{\text{En cours}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{blue}{\text{En cours}}`$ | $`\textcolor{green}{\text{Fini 70 pourcent}}`$ |
-| Boutique | $`\textcolor{red}{\text{A faire !}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{red}{\text{A faire !}}`$ | $`\textcolor{red}{\text{Fini 20 pourcent}}`$ |
+| Profil | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 95 pourcent}}`$ |
+| ModifProfil | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 70 pourcent}}`$ |
+| Boutique | $`\textcolor{red}{\text{En cours !}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{red}{\text{En cours !}}`$ | $`\textcolor{red}{\text{Fini 20 pourcent}}`$ |
 | Inscription | $`\textcolor{red}{\text{En pause}}`$ | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{red}{\text{En pause}}`$ | $`\textcolor{red}{\text{Fini 40 pourcent}}`$ |
 
 
