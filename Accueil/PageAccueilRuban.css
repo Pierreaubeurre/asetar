@@ -1,0 +1,114 @@
+body 
+    {
+        margin: 0;
+        background-color: white;
+    }
+    
+nav, footer, section, article, aside 
+    {
+	    position: relative;
+	    border: 3px solid #cccccc;
+	    box-sizing: border-box;
+    }
+
+table 
+    {
+        border-spacing: 25px;
+        column-span: all;
+        margin: auto;
+    }
+
+tr, td 
+    {
+	    padding : 5px;
+        text-align: top;
+        border: 1px solid;  
+        border-spacing: 80px;
+        height: 10px;
+        column-span: all;
+        border-radius: 30px;
+    }
+
+header 
+    {
+	    height: 80px;
+        background: #009688;
+    }
+
+
+header table
+    {
+	    background-color: #009688;
+        margin: center;   
+    }
+
+nav 
+    {
+	    border: 3px solid #8BC34A;
+        background-color: #589215;
+	    height: 500px;
+    }
+
+nav span 
+    {
+	    background-color: #8BC34A;
+    }
+
+section 
+    {
+	    border: 3px solid #E91E63;
+	    padding: 25px;
+    }
+
+section span 
+    {
+	    background-color: #E91E63;
+    }
+
+footer 
+    {
+	    border: 3px solid #673AB7;
+	    height: 50px;
+    }
+
+footer span 
+    {
+	    background-color: #673AB7;
+	    color: #ffffff;
+    }
+
+article 
+    {
+	    border: 3px solid #009688;
+	    height: 500px;
+    }
+
+article span 
+    {
+	    background-color: #009688;
+    }
+
+aside 
+    {
+	    border: 3px solid #FFC107;
+	    height: 500px;
+    }
+
+aside span 
+    {
+	    background-color: #FFC107;
+    }
+
+.corner1   
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+.corner2 
+    {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
