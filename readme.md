@@ -97,8 +97,8 @@ Les {- dossiers -} sont en rouge alors que les {+ fichiers +} sont en vert. Les 
 
 # Listes des updates du readme :  
 #### Update le 07/04 a 9h par Thibault  
-####   
-####   
+#### Update le 25/04 a 21h par Thibault
+#### Update le 26/04 a 16h par Thibault
 ####   
 ####   
 ####   
