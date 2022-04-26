@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body
+    {
+        min-height: 100vh;
+        font-family: 'Montserrat', sans-serif;
+        background: no-repeat
+                    linear-gradient(217deg, #5e4cc5, #86a1c4),
+                    linear-gradient(127deg, #728edb, #296d9b),
+                    linear-gradient(336deg, #dd94e9, #8cbfd3);
+    }
+
+header 
+    {
+        z-index: 2;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+	    height: 45px;
+        width: 78.8%;
+        background-color: rgb(53, 51, 51);
+        border-radius: 5px;
+    }
+
+    li, a, button
+        {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #edf0f1;
+            text-decoration: none;
+        }
+
+    .nav_lien
+        {
+            list-style: none;
+        }
+
+    .nav_lien li
+        {
+            display: inline-block ;
+            padding: 0 30px;    
+        }
+
+    .nav_lien li a
+        {
+            transition: all 0.3s ease 0s;
+        }
+
+    .nav_lien li a:hover
+        {
+            color: #0088a9;
+        }
+
+    button
+        {
+            padding: 10px 20px;
+            background-color: rgba(0, 136, 169, 1);
+            border: none;
+            border-radius: 50px;
+            transition: all 0.3s ease 0s;
+        }
+
+    button:hover
+        {
+            background-color: rgb(100, 100, 100);
+            cursor: pointer;
+        }
+
+
+
+
+figure
+    {
+        height: 100px;
+    }
+
+nav 
+    {
+	    box-shadow: 5px 5px 5px 2px rgb(14, 13, 13);
+	    height: 300px;
+        background-image: url(https://lyc-monge.monbureaunumerique.fr/ressources-layout.do?ID_RESSOURCE=796&ID_PAGE=2);
+    }
+
+section 
+    {
+	    padding: 25px;
+    }
+
+main
+    {
+        font-family: 'Montserrat', sans-serif;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-article
+        {
+            z-index: 1;
+            width: 1024px;
+            margin: 0 auto;
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+    img
+        {
+            height: 415px;
+            justify-content: center;
+        }
+
+    article
+        {
+            width: 284px;
+            background: white;
+            margin: 24px;
+            border-radius: 16px;
+            box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.5s ;
+        }
+
+    article:hover
+        {
+            transform: translateY(-10px);
+        }
+
+    article .article-image
+        {
+            height: 220px;
+            background-size: cover;
+            background-position: center center;
+            transition: 0.5s ease-in-out;
+        }
+
+    h1
+        {
+            color: white;
+        }
+
+    article .article-content
+        {
+            padding: 16px;
+        }
+
+    article .article-date
+        {
+            color: #673ab7;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+    article .article-description
+        {
+            color: rgb(255, 255, 255);
+        }
+
+    article .article-bottom
+        {
+            display: flex;
+            align-items: center;
+            background-color: #673ab7;
+            color: white;
+        }
+
+    article .article-bottom-item
+        {
+            flex: 1;
+            text-align: center;
+            padding: 6px 0px;
+            border-right: solid 1px rgb(172, 102, 36);
+        }
+
+    article .article-bottom-item:last-of-type
+        {
+            border-right: none;
+        }
+
+    article .article-bottom-item i
+        {
+            font-size: 12px;
+            color: rgb(255, 255, 255)
+        }
+
+
+    article .article-bottom-item-value
+        {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+    article .article-bottom-item-label
+        {
+            text-transform: uppercase;
+            font-size: 10px;
+        }
+
+    article.orange .article-image
+        {
+            color: #FF9800;
+        }
+
+    article.orange .article-bottom
+        {
+            background-color: #FF9800;
+        }
+
+    article.red .article-date
+        {
+            background-color: #a83020;
+        }
+
+    article.red .article-bottom
+        {
+            background-color: #a83020;
+        }
+
+    article:hover
+        {
+            cursor: pointer;
+            transform: scale(1.5s);
+        }
+
+
+
+
+aside 
+    {
+	    height: 550px;
+    }
+        
+        h1
+        {
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .container-aside
+        {
+            margin: auto;
+            width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        .container-aside .card
+        {
+            width: 100%;
+            background: rgb(85, 94, 212);
+            border-radius: 10px;
+            box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, 0.2);
+            align-items: center;
+        }
+
+        .container-aside .card .image-box
+        {
+            position: relative;
+            width: 100%;
+            height: 310px;
+            overflow: hidden;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .container-aside .card .image-box img
+        {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s ease-in-out;
+        }
+
+        .container-aside .card:hover .image-box img
+        {
+            transform: scale(1.5);
+        }
+
+        .action
+        {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .action li
+        {
+            position: relative;
+            list-style: none;
+            width: 40px;
+            height: 40px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 4px;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: transform 0.5s;
+            transform: translateX(60px);
+        }
+
+        .action li:nth-child(1)
+        {
+            transition-delay: 0.15s;
+        }
+        .action li:nth-child(2)
+        {
+            transition-delay: 0.3s;
+        }
+
+        .container-aside .card:hover .action li
+        {
+            transform: translateX(0px);
+        }
+
+        .action li:hover
+        {
+            background: #728edb;
+            color: #fff;
+            border-radius: 10px;
+        }
+
+        .action li span
+        {
+            position: absolute;
+            right: 50px;
+            top: 50%;
+            transform: translateY(-50%) translateX(-20px);
+            white-space: nowrap;
+            width: 175px;
+            height: 18px;
+            text-align: center;
+            background: #fff;
+            color: #333;
+            font-weight: 500;
+            font-size: 12px;
+            border-radius: 10px 6px 6px 10px;
+            pointer-events: none;
+            opacity:0;
+            transition: 0.5s;
+        }
+
+        .action li:hover span
+        {
+            transform: translateY(-50%) translateX(-20px);
+            opacity: 1;
+        }
+
+        .action li span::before
+        {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: -4px;
+            width: 12px;
+            height: 12px;
+            background: #296d9b;
+            transform: translateY(-50%) rotate(45deg);
+        }
+
+        .container-aside .card .content
+        {
+            padding: 10px
+        }
+
+        .container-aside .card .content .ProductName h3
+        {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333;
+            margin: 5px 0;
+        }
+
+        .container-aside .card .content .price_rating
+        {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+        .container-aside .card .content .price_rating h2
+        {
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        .container-aside .card .content .price_rating .fa
+        {
+            color: #dbba27;
+            cursor: pointer;
+        }
+
+        .container-aside .card .content .price_rating .fa.grey
+        {
+            color: #ccc;
+        }
+
+
+
+    
+footer 
+    {
+        border-top: 1px dashed #000;
+        width: 100%;
+        height: 450px;
+        background-color: rgb(53, 51, 51);
+        border-radius: 0 0 5px 5px;
+    }
+
+    .container-footer
+        {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            font-size: 20px;
+            padding: 30px 0 40px;
+        }
+
+    h3
+        {
+            font-size: 25px;
+            color: #0088a9;
+        }
+
+    .bloc
+        {   
+            width: 25%;
+            margin: 0px 50px;
+        }
+
+    .footer-services, .footer-conditions, .footer-contact, .footer-horaire
+        {
+            font-size: 25px;
+            padding-bottom: 20px;
+            margin-left: auto;
+        }
+
+    .liste-condition, .liste-horaire
+        {
+            list-style-type: none;
+        }
+
+    .liste-condition li 
+        {
+            padding: 10px;
+        }
+    
+    .liste-condition a
+        {
+            text-decoration: none;
+            color: white;
+        }
+
+    .liste-condition a:hover
+        {
+            color: rgba(0, 136, 169, 1);
+        }
+
+    .footer-contact p
+        {
+            color: #ffffff;
+            font-size: 20px;
+            padding: 5px;
+        }
+
+    .footer-horaire
+        {
+            font-size: 15px;
+            padding: 10px;
+        }
+        
+    .footer-horaire li
+        {
+            font-size: 15px;
+            padding: 10px;
+        }
+
+.corner1   
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+.corner2 
+    {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
