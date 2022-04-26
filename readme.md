@@ -26,7 +26,7 @@ Le rond est le résultat final affiché de la page
 
 | Fonctionnalités | M (Modèle) | V (Vue) | C (Contrôleur) | Priorité |
 | ----------- | ----------- | ----------- |----------- | ----------- |
-| Accueil | Pas Besoin | $`\textcolor{blue}{\text{Finition}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 95 pourcent}}`$ |
+| Accueil | Pas Besoin | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 95 pourcent}}`$ |
 | Login | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 100 pourcent}}`$ |
 | Logout | Pas Besoin | Pas besoin | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 100 pourcent}}`$ |
 | Profil | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fait}}`$ | $`\textcolor{green}{\text{Fini 95 pourcent}}`$ |
