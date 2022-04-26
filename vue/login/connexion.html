@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <meta charset="utf-8">
+        <!-- importer le fichier css -->
+        <link rel="stylesheet" href="vue/login/connexion.css" type="text/css"/>
+        
+            <div id="container">
+            <!-- zone de connexion -->
+
+                <form class="login-form" method="post">
+                    <h1>Connexion</h1>
+                    
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Nom d'utilisateur</span>
+                            <input type="text" placeholder="Entrer votre d'utilisateur" name="user" required>
+                        </div>
+                    </div>    
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Mot de passe</span>
+                            <input type="password" placeholder="Entrer votre mot de passe" name="password" required>
+                        </div>
+                    </div>
+                    <div class="pass"><!--<a href="./?page=mdpOublie">Mot de passe oublié ?</a><-->
+                    
+                        <button type="submit" formaction="./?page=connexion">Connexion</button>
+
+                    <div class="pass">Voulez-vous vous inscrire ? <a href="./?page=inscription">Inscription.</a></div>
+                    </div>
+                    
+                    <div class='input-box'>
+                        <a href='./?page=accueil'> Accueil </a>
+                    </div>
+                </form>
+            </div>
+        </body>
+    </html>
