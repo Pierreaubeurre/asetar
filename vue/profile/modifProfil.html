@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PageProfil</title>
+        <link rel='stylesheet' type='text/css' href='vue/profile/PageProfilTest.css'>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='title'>Page de Profil</div>
+            <form action='' method='post'>
+            <div class='user-details'>
+                <div class='input-box'>
+                    <span class='details'>Nom *</span>
+                    <input type='text' value="%1R" name="NOM">
+                </div>
+
+                <div class='input-box'>
+                    <span class='details'>Prénom *</span>
+                    <input type='text' value="%2R" name="PRENOM">
+                </div>
+
+                <div class='input-box'>
+                    <span class='details'>Nom d'utilisateur</span>
+                    <input type='text' value="%3R" readonly>
+                </div>
+
+                <div class='input-box'>
+                    <span class='details'>Age *</span>
+                    <input type='text' value="%4R" name="AGE">
+                </div>
+
+                <div class='input-box'>
+                    <span class='details'>Biographie *</span>
+                    <input type='text' value="%5R" name="BIO">
+                </div>
+
+                <div class='input-box'>
+                    <span class='details'>Code Postal *</span>
+                    <input type='text' value="%6R" name="CODE_POSTAL">
+                </div>
+
+                <div class='input-box'>
+                    <span class='details'>Date de naissance *</span>
+                    <input type='tel' value="%7R" name="DATE_NAISSANCE">
+                </div>
+
+                <div class='input-box'>
+                    <span class='details'>Numéro de téléphone *</span>
+                    <input type='text' value="%8R" name="TEL">
+                </div>
+
+                <div class='input-box'>
+                    <span class='details'>Centre de formation *</span>
+                    <input type='text' value="%9R" name="CENTRE_FORMATION">
+                </div>
+
+                <div class='input-box'>
+                    <span class='details'>Langage *</span>
+                    	<select name="LANGUE">
+                    		%L1
+                    		%L2
+                    	</select>
+                </div>
+
+                <div class='input-box'>
+                    <span class='details'>Adresse e-mail *</span>
+                    <input type='text' value="%11R" name="MAIL">
+                    
+		<div class="button">
+                    <input type="submit" value="Confirmer les modifications">
+                </div>
+                </div>
+                <div class='input-box'>
+                    <a class='details' href="./?page=profile">Retour a votre page de profile *</a>
+                </div>
+            </div>
+            </form>    
+        </div>
+    </body>
+</html>
