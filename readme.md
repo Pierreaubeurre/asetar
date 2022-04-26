@@ -13,6 +13,9 @@
 
 ![Erreur de chargement](images/MCD.png)  
 
+
+  
+  ![Erreur de chargement](images/MVC.png)
 Les rectangles étant des fichiers   
 Les ellipses représentent la partie du modèle MVC appelée  
 Le rond est le résultat final affiché de la page  
